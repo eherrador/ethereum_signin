@@ -10,7 +10,11 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
-    "vue": "^3.3.2"
+    "buffer": "^6.0.3",
+    "siwe": "^2.1.4",
+    "vue": "^3.3.2",
+    "vue-router": "^4.2.0",
+    "web3": "^1.10.0"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.2.0",

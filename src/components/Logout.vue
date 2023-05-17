@@ -1,4 +1,6 @@
 <script>
+    import Web3 from 'web3';
+    window.web3 = new Web3(Web3.givenProvider);
     export default {
         data() {
             return {
@@ -26,7 +28,10 @@
                 const accounts = await ethereum.request({ method: 'eth_requestAccounts' });
 
                 //Si hay respuesta vamos a la pantalla de Login
-                if (accounts.length) this.$router.push('/Login');
+                if (accounts.length) {
+                    await window.web3.logout;
+                    this.$router.push('/Login');
+                }
                 else this.error = 'No fue seleccionada ninguna cuenta!';
             },
         },

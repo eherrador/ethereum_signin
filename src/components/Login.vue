@@ -20,19 +20,6 @@
                 this.requiresLogin = true;
                 return;
             } 
-
-            /*const message = new siwe.SiweMessage({
-                domain: window.location.host,
-                address: accounts[0],
-                statement: 'By logging in you agree to the terms and conditions.',
-                uri: window.location.origin,
-                version: '1',
-                chainId: '22', 
-                resources: ['https://terms.website.com'],
-            });*/
-
-            //Mostramos la pantalla de Logout
-            //this.$router.push('/Logout');
         },
 
         methods: {

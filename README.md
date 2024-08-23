@@ -4,7 +4,7 @@ Implementing the signin process from a dApp for Ethereum accounts to establish s
 
 Compatible with:[EIP-4361](https://eips.ethereum.org/EIPS/eip-4361)
 
-And following some ideas from: [Lukso: Sign-in with Ethereum](https://docs.lukso.tech/guides/browser-extension/)sign-in-with-ethereum
+And following some ideas from: [Lukso: Sign-in with Ethereum](https://docs.lukso.tech/guides/browser-extension/) sign-in-with-ethereum
 
 ## Recommended IDE Setup
 
